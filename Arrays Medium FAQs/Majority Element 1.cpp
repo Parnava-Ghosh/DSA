@@ -7,7 +7,7 @@ public:
 
         for(int i=1;i<n;i++){
             if(element == nums[i]){
-                count++;
+                count++;   
             }else if(element != nums[i] && count > 0){
                 count--;
             }else if(count == 0){
